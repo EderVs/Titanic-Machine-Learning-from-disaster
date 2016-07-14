@@ -1,4 +1,4 @@
-First Project OF Data Analysis
+First project of Data Analysis in Python
 
 ```python
 import pandas as pd
@@ -4526,3 +4526,40 @@ sns.factorplot('Deck', 'Survived', data=titanic_df)
 
 ![png](output_43_1.png)
 
+
+
+```python
+sns.factorplot('Alone',hue='Survived',data=titanic_df, kind='count')
+```
+
+
+
+
+    <seaborn.axisgrid.FacetGrid at 0x7f12f1374d90>
+
+
+
+
+![png](output_44_1.png)
+
+
+
+```python
+sns.factorplot('Alone', 'Survived', data=titanic_df)
+```
+
+
+
+
+    <seaborn.axisgrid.FacetGrid at 0x7f12f0ae08d0>
+
+
+
+
+![png](output_45_1.png)
+
+
+
+```python
+
+```
